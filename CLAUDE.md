@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What this is
 
-Emma (the project folder keeps its old name, Jarvis): a macOS 14+ menu bar voice assistant (SwiftUI `MenuBarExtra`, `LSUIElement`). Say "Emma", speak, and she answers out loud. Everything runs on-device: Whisper for speech-to-text, Qwen3 4B in LM Studio for the reply, and Kokoro-82M for her voice (Apple's synthesizer as fallback). She has no tools yet, so she can't act on apps. Not a git repository; back up before large refactors.
+Emma (the project folder keeps its old name, Jarvis): a macOS 14+ menu bar voice assistant (SwiftUI `MenuBarExtra`, `LSUIElement`). Say "Emma", speak, and she answers out loud. Everything runs on-device: Whisper for speech-to-text, Qwen3 4B in LM Studio for the reply, and Kokoro-82M for her voice (Apple's synthesizer as fallback). She has no tools yet, so she can't act on apps. It's a git repository (branch `main`, no remote yet).
 
 Conversation behaviour (routing, "sir", fillers, padding cuts, greetings…) is documented in `docs/conversation-rules.md`. Read it before changing any reply logic, and update it with the change.
 
